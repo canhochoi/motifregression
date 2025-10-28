@@ -1,1 +1,1 @@
-Scripts to analyze multiome data, focusing on TF motifs, activities and their impact on gene expression. The results are shown in the [View poster](https://github.com/canhochoi/motifregression/Poster_MSK_retreat_2025_final.pdf). 
+Scripts to analyze multiome data, focusing on TF motifs, activities and their impact on gene expression. The results are shown in the [poster](https://github.com/canhochoi/motifregression/Poster_MSK_retreat_2025_final.pdf). 
