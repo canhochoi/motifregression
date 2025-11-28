@@ -113,7 +113,8 @@ MC_seurat <- RunChromVAR(
   genome = BSgenome.Hsapiens.UCSC.hg38
 )
 
-save(MC_seurat, file = "~/luan/projects/motifregression/result/CH/MC_seurat.rds")
+# save(MC_seurat, file = "~/luan/projects/motifregression/result/CH/MC_seurat.rds")
+saveRDS(MC_seurat, file = "~/luan/projects/motifregression/result/CH/MC_seurat.rds")
 
 MC_seurat <- readRDS("~/luan/projects/motifregression/result/CH/MC_seurat.rds")
 
