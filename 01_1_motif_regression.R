@@ -141,7 +141,7 @@ motif_names <- mutate(motif_names, gene = stringr::str_split(genes, pattern = ":
   dplyr::select(motif, gene) %>%
   dplyr::distinct() %>%
   arrange(gene) %>%
-  filter(!stringr::str_detect(gene, pattern = "var.")) %>%
+  dplyr::filter(!stringr::str_detect(gene, pattern = "var.")) %>%
   as.data.frame()
 
 #fix EWSR1-FLI1
